@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:actionBarStyle">@style/customstyle</item>-->
+
+    </style>
+
+    <!--<style name="customactionbarmenu1" parent="@android:style/Theme.Holo.Light.DarkActionBar"></style>-->
+      <style name="customstyletoolbar" parent="ThemeOverlay.AppCompat.Dark">
+
+    <!--<style name="customstyletoolbar2" parent="ThemeOverlay.AppCompat.Dark">-->
+        <!--<item name="android:background">#009BE6</item>-->
+
+          <!--<item name="android:titleTextStyle">@style/customtxtcolor</item>-->
+    </style>
+
+    <style name="pop" parent="AppTheme">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:animateFirstView">true</item>
+        
+    </style>
+
+
+    <!--<style name="customtxtcolor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">#009BE6</item>-->
+        <!--<item name="android:fontFamily">casual</item>-->
+    <!--</style>-->
+
+
+
+
+
+</resources>

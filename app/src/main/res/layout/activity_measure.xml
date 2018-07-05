@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ta.bismillahirahmanirohim.muhammadrezza.tahb.measure"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/app_bar2"
+            layout="@layout/custom_actionbaract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colortext"
+        android:id="@+id/view_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/recon"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:background="@drawable/txtrecont"
+            android:elevation="0dp"
+            android:orientation="vertical"
+            android:pointerIcon="hand">
+
+            <ImageView
+                android:id="@+id/rotateicon"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="7dp"
+                android:pointerIcon="hand"
+                app:srcCompat="@drawable/refreshicon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_weight="0.99"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/backgroundstat"
+            android:orientation="vertical"
+            android:layout_weight="0.14"></LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnreadhb"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:pointerIcon="hand"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/btnmeasure" />
+
+
+</LinearLayout>

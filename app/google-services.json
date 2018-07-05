@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "789322443631",
+    "firebase_url": "https://tahb-50b53.firebaseio.com",
+    "project_id": "tahb-50b53",
+    "storage_bucket": "tahb-50b53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789322443631:android:11460d61342ba9af",
+        "android_client_info": {
+          "package_name": "ta.bismillahirahmanirohim.muhammadrezza.tahb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789322443631-g507iuqncdb1s2sl1gh3l1dkf3a8s1vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP20cZiFfyP98EKU_LvrN6pdQGDvP_MxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

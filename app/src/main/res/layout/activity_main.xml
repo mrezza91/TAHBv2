@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="ta.bismillahirahmanirohim.muhammadrezza.tahb.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/app_bar"
+
+            layout="@layout/custom_actionbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/wlcm"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/wlcm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginTop="20dp"
+        android:elevation="1dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/menu1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_menu2" />
+
+            <Button
+                android:id="@+id/menu2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_menu1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/menu3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_menu3" />
+
+            <Button
+                android:id="@+id/menu4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_menu4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ta.bismillahirahmanirohim.muhammadrezza.tahb.advice">
+
+    <item
+        android:id="@+id/toolabout"
+        android:icon="@drawable/about"
+        android:title="About"
+        app:showAsAction="always"
+            >
+    </item>
+</menu>

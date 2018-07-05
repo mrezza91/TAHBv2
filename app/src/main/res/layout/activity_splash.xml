@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="ta.bismillahirahmanirohim.muhammadrezza.tahb.splash">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/tahb"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/tahb" />
+
+    <view
+        class="android.support.v4.widget.Space"
+        id="@+id/kosong"
+        layout_width="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary" />
+
+
+</LinearLayout>
